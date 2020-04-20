@@ -1,0 +1,47 @@
+
+body{
+    background: #010101 !important;
+}
+.Blue{
+    color: #69779b !important;
+}
+.Green{
+    color: #acdbdf !important;
+}
+.White{
+    color: #f0ece2 !important;
+}
+.Background{
+    background-color: #010101 !important;
+}
+.label-green{
+    background-color: #010101 !important;
+    border-color: #acdbdf !important;
+    color: #acdbdf !important;
+}
+.label-blue{
+    background-color: #010101 !important;
+    border-color: #69779b !important;
+    color:#69779b !important;
+}
+.heading{
+    font-size: 50px !important;
+    font-weight: 600 !important;
+}
+.sub-heading{
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+.img{
+    height: 189px;
+    width: 189px;
+}
+.float-right{
+    float: right;
+}
+.White-sub{
+    color: #758184 !important;
+}
+.apart{
+    letter-spacing: 1px;
+}
