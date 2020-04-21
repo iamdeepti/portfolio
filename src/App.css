@@ -2,6 +2,9 @@
 body{
     background: #010101 !important;
 }
+a{
+    text-decoration: none !important;
+}
 .Blue{
     color: #69779b !important;
 }
@@ -25,12 +28,34 @@ body{
     color:#69779b !important;
 }
 .heading{
-    font-size: 50px !important;
+    font-size: 80px !important;
     font-weight: 600 !important;
+    letter-spacing: 6px;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
 }
 .sub-heading{
-    font-size: 35px !important;
+    font-size: 50px !important;
     font-weight: 700 !important;
+    letter-spacing: 2px;
+    
+    padding-bottom: 2% !important;
+}
+@media screen and (max-width:480px){
+    .heading{
+        font-size: 40px !important;
+    font-weight: 600 !important;
+    letter-spacing: 3px;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    }
+    .sub-heading{
+        font-size: 25px !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
 }
 .img{
     height: 189px;
@@ -44,4 +69,37 @@ body{
 }
 .apart{
     letter-spacing: 1px;
+}
+.container{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.box{
+    padding-top: 3% !important;
+    padding-left: 1% !important;
+    padding-right: 45% !important;
+}
+@media screen and (max-width:480px){
+.box{
+    padding-top: 10% !important;
+    padding-left: 1% !important;
+    padding-right: 20% !important;
+}}
+.section{
+    padding-top: 10% !important;
+    padding-bottom: 8% !important;
+}
+.footer{
+    padding-top:10% !important;
+    
+}
+.footer-text{
+    text-align: center;
+    text-transform: none !important;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+@media screen and (max-width:480px){
+    .footer-text{
+        font-size: 12px !important;
+    }
 }

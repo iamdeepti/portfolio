@@ -5,7 +5,7 @@ export class Projects extends Component {
 	render() {
 		return (
 			<Container className="Background">
-				<Card.Group itemsPerRow={2}>
+				<Card.Group itemsPerRow={2} stackable>
 					<Card className="Background">
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
