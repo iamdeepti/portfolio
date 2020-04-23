@@ -1,38 +1,61 @@
-import React from 'react'
-import { Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import React, { Component } from 'react'
+import "../App.css";
+import {Responsive,Menu,Icon,Button} from 'semantic-ui-react';
+import { HashLink as Link } from "react-router-hash-link";
 
-const SideBar = () => (
-  <Sidebar.Pushable as={Segment}>
-    <Sidebar
-      as={Menu}
-      animation='overlay'
-      icon='labeled'
-      inverted
-      vertical
-      visible
-      width='thin'
-    >
-      <Menu.Item as='a'>
-        <Icon name='home' />
-        Home
-      </Menu.Item>
-      <Menu.Item as='a'>
-        <Icon name='gamepad' />
-        Games
-      </Menu.Item>
-      <Menu.Item as='a'>
-        <Icon name='camera' />
-        Channels
-      </Menu.Item>
-    </Sidebar>
+export class Sidebar extends Component {
+  state = { visible: false, icon: "bars", activeItem: "" };
+	togglefunc = (e) => {
+		e.preventDefault();
+		if (this.state.visible === true) {
+			this.setState({ visible: false, icon: "bars" });
+		} else {
+			this.setState({ visible: true, icon: "close" });
+		}
+	};
+	handleItemClick = (e, { name }) =>
+		this.setState({ activeItem: name, visible: false, icon: "bars" });
 
-    <Sidebar.Pusher>
-      <Segment basic>
-        <Header as='h3'>Application Content</Header>
-        <Image src='/images/wireframe/paragraph.png' />
-      </Segment>
-    </Sidebar.Pusher>
-  </Sidebar.Pushable>
-)
+  render() {
+    return (
+      <Responsive maxWidth={600}>
+        <Menu className="Background" fixed="top">
+					<Menu.Item>
+						<Button onClick={this.togglefunc} className="Background">
+							<Icon name={this.state.icon} color="teal" size='large' />
+						</Button>
+					</Menu.Item>
+				</Menu>
+				
+					{this.state.visible === true && (
+						<div>
+							<div className="sidebar">
+								<ul className="White no-dots">
+									<li className='sidebar-items'>
+										<Link to="/#about" className="White">
+											<span className="Green">01.</span> <br />
+											About
+										</Link>
+									</li>
+									<li className='sidebar-items'>
+										<Link to="/#blog" className="White">
+											<span className="Green">02.</span>
+											<br /> Blog
+										</Link>
+									</li>
+									<li className='sidebar-items'>
+										<Link to="/#projects" className="White">
+											<span className="Green">03.</span>
+											<br /> Projects
+										</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
+					)}
+      </Responsive>
+    )
+  }
+}
 
-export default SideBar;
+export default Sidebar;

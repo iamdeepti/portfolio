@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Menu, Button, Segment, Label } from "semantic-ui-react";
+import { Menu, Button, Segment, Label, Responsive } from "semantic-ui-react";
 import "../App.css";
 import { HashLink as Link } from "react-router-hash-link";
+//import Sidebar from '../components/Sidebar';
 export class Navbar extends Component {
 	state = { activeItem: "Home" };
 
@@ -9,8 +10,10 @@ export class Navbar extends Component {
 	render() {
 		const activeItem = this.state.activeItem;
 		return (
+			
+			<Responsive  minWidth={601} >
 			<Segment className="Background">
-				<Menu pointing secondary size="large" stackable>
+				<Menu pointing secondary fixed='top' size='large'>
 					<Menu.Item
 						as="a"
 						name="Home"
@@ -22,7 +25,7 @@ export class Navbar extends Component {
 						</Link>
 					</Menu.Item>
 					<Menu.Item
-						as="a"
+						
 						name="Blog"
 						onClick={this.handleItemClick}
 						active={activeItem === "Blog"}
@@ -42,12 +45,14 @@ export class Navbar extends Component {
 						</Link>
 					</Menu.Item>
 					<Menu.Menu position="right">
-						<Button as='a' basic color="teal" floated="left" className="label-green" href='https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing'>
+						<Button as='a' basic color='teal' floated="left" className="label-green" href='https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing'>
 							Resume
 						</Button>
 					</Menu.Menu>
 				</Menu>
 			</Segment>
+			</Responsive>
+			
 		);
 	}
 }
