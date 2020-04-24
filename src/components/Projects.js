@@ -17,7 +17,7 @@ export class Projects extends Component {
 							</span>
 						</Card.Content>
 						<Card.Content>
-							<Card.Header className="White">ShECURE</Card.Header>
+							<Card.Header className="White" as='a' href='https://shecure.herokuapp.com/'>ShECURE</Card.Header>
 
 							<Card.Description className="Blue">
 								ShECURE is a web app that leverages Machine Learning algorithms
@@ -43,7 +43,9 @@ export class Projects extends Component {
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
 							<Button className="Background" floated="right" icon>
+								<a href='https://www.github.com/iamdeepti/online-store'>
 								<Icon name="github" color="grey" size="large"></Icon>
+								</a>
 							</Button>
 						</Card.Content>
 						<Card.Content>

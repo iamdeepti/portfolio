@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "../App.css";
-import {Responsive,Menu,Icon,Button} from 'semantic-ui-react';
+import {Responsive,Menu,Icon,Button, Label} from 'semantic-ui-react';
 import { HashLink as Link } from "react-router-hash-link";
 
 export class Sidebar extends Component {
@@ -30,7 +30,7 @@ export class Sidebar extends Component {
 					{this.state.visible === true && (
 						<div>
 							<div className="sidebar">
-								<ul className="White no-dots">
+								<ul className="White no-dots apart">
 									<li className='sidebar-items'>
 										<Link to="/#about" className="White">
 											<span className="Green">01.</span> <br />
@@ -48,6 +48,17 @@ export class Sidebar extends Component {
 											<span className="Green">03.</span>
 											<br /> Projects
 										</Link>
+									</li>
+									<li className='sidebar-items'>
+										<Link to="/#contact" className="White">
+											<span className="Green">04.</span>
+											<br /> Contact
+										</Link>
+									</li>
+									<li className='sidebar-items'>
+										<a href='https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing'>
+											<Label basic className='label-green' as='a'>Resume</Label>
+										</a>
 									</li>
 								</ul>
 							</div>

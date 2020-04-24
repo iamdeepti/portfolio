@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Menu, Button, Segment, Label, Responsive } from "semantic-ui-react";
+import { Menu, Segment, Label, Responsive } from "semantic-ui-react";
 import "../App.css";
 import { HashLink as Link } from "react-router-hash-link";
-//import Sidebar from '../components/Sidebar';
 export class Navbar extends Component {
 	state = { activeItem: "Home" };
 
@@ -44,6 +43,17 @@ export class Navbar extends Component {
 						<span className="Green">03.</span> Projects
 						</Link>
 					</Menu.Item>
+					<Menu.Item
+						as="a"
+						name="Contacts"
+						onClick={this.handleItemClick}
+						active={activeItem === "Projects"}
+						className="White apart">
+							<Link to='/#contact' className='White'>
+						<span className="Green">04.</span> Contact
+						</Link>
+					</Menu.Item>
+					
 					<Menu.Menu position="right">
 						<Label as='a' basic className="label-green resume-label apart" href='https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing'>
 							Resume

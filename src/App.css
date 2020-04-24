@@ -176,3 +176,13 @@ a{
     padding-bottom: 0px !important;
     font-size: 15px !important;
 }
+.contact-section{
+    margin-bottom: 1% !important;
+}
+.contact-text{
+    text-align: center !important;
+    justify-content: center !important;
+}
+.first-block{
+    margin-bottom: 25% !important;
+}

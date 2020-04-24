@@ -3,12 +3,10 @@ import {
 	Header,
 	Segment,
 	Divider,
-	Menu,
-	Icon,
-	Button,
 	Label,
 } from "semantic-ui-react";
 import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
@@ -38,6 +36,7 @@ export class profile extends Component {
 				
 				
 					<Segment className="Background container ">
+						<div className='first-block'>
 						<Header as="p" className="Green starting">
 							Hi, My name is
 						</Header>
@@ -53,9 +52,12 @@ export class profile extends Component {
 								Machine Learning Enthusiast. 
 								<br/>
 								<div className='label-padding'>
+									<Link to='/profile#contact'>
 								<Label basic className='label-green label-text'>Contact Me</Label>
+								</Link>
 								</div>
 							</Header>
+						</div>
 						</div>
 						<Divider horizontal className="section about-section" id="about">
 							<Header as="h4" className="White sub-heading section">
@@ -69,6 +71,13 @@ export class profile extends Component {
 							</Header>
 						</Divider>
 						<Projects />
+						<Divider horizontal className="section contact-section" id="contact">
+							<Header as="h4" className="White sub-heading section">
+								<span className="Green">04.</span> Get in touch
+							</Header>
+						</Divider>
+						<Contact />
+						
 						<Footer />
 					</Segment>
 				
