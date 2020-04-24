@@ -88,8 +88,8 @@ a{
     
 }}
 .section{
-    padding-top: 10% !important;
-    padding-bottom: 8% !important;
+    margin-top: 12% !important;
+    margin-bottom: 8% !important;
 }
 .footer{
     padding-top:10% !important;
@@ -151,4 +151,28 @@ a{
 @media screen and (max-width:800px){
     .para-intro{
     font-size: 18px !important;}
+}
+.intro{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.after-intro{
+    font-weight: 450 !important;
+}
+.label-padding{
+    padding-top:5% !important;
+
+}
+.label-text{
+    font-size: 18px !important;
+}
+.about-section{
+    margin-bottom: 1% !important;
+}
+.resume-label{
+    margin-right: 5px !important;
+    margin-top: 1px !important;
+    margin-bottom:1px !important;
+    padding-bottom: 0px !important;
+    font-size: 15px !important;
 }

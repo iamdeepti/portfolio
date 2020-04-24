@@ -6,6 +6,7 @@ import {
 	Menu,
 	Icon,
 	Button,
+	Label,
 } from "semantic-ui-react";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
@@ -48,13 +49,15 @@ export class profile extends Component {
 						</Header>
 						<div className="box">
 							<Header as="p" className="Blue apart para-intro">
-								I'm a pre-final year student at DTU (Delhi Technological
-								University, India) pursuing B.Tech in Mathematics and Computing.
-								I love coding, and building stuff. I'm a full stack
-								web-developer.
+								I'm a student at DTU, India and a full stack Web-Developer and 
+								Machine Learning Enthusiast. 
+								<br/>
+								<div className='label-padding'>
+								<Label basic className='label-green label-text'>Contact Me</Label>
+								</div>
 							</Header>
 						</div>
-						<Divider horizontal className="section" id="about">
+						<Divider horizontal className="section about-section" id="about">
 							<Header as="h4" className="White sub-heading section">
 								<span className="Green">01.</span> About Me
 							</Header>

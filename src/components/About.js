@@ -6,6 +6,9 @@ export class About extends Component {
     render() {
         return (
             <Segment className='Background container'>
+                <div className='intro Blue apart'>  I'm , a pre-final year student at <span className='Green'>Delhi Technological University</span> pursuing B.Tech in Mathematics and Computing.<br/><br/>
+                          </div>
+                          
                 <Item>
                     <Item.Image src={profile_pic} className='img' size='small' floated='right'/>
                     <Item.Content>
@@ -13,18 +16,21 @@ export class About extends Component {
                         
                         <Item.Description >
                             <Header as='p'className='Blue apart'>
-                        Hi, I'm Deepti Singh, a pre-final year student at <span className='Green'>Delhi Technological University</span> pursuing B.Tech in Mathematics and Computing.
-                        I'm a self taught full-stack Web-Developer. I love coding and I'm always up for a challenge. 
-                        
-                        Some of the technologies I have worked with recently:
+                          <div className ='after-intro'>
+                        I enjoy building things that live on the internet. I also love turning complex problems into beautiful codes,
+                        and I'm always up for a challenge. I like exploiting new technologies.
+                        <br/><br/>
+                        Some of the technologies I have worked with recently includes:
                         <ul className='Green'>
                             <li>React JS</li>
                             <li>PHP</li>
                             <li>JavaScript</li>
                             <li>HTML and CSS</li>
                         </ul>
-                        Beside this I love exploring Machine Learning Algorithms too. 
-                        My hobby includes sketching and reading novels.
+                        <br/>
+                        Beside this I love exploring Machine Learning Algorithms too, being a student of Applied Mathematics surely helps here. 
+                        I read novels in my free time, I loved 'Lean In' by Sheryl Sandberg. And when I'm bored I do a little bit of sketching too.
+                        </div>
                         </Header>
                         </Item.Description>
                     </Item.Content>

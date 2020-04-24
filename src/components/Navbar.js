@@ -45,9 +45,9 @@ export class Navbar extends Component {
 						</Link>
 					</Menu.Item>
 					<Menu.Menu position="right">
-						<Button as='a' basic color='teal' floated="left" className="label-green" href='https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing'>
+						<Label as='a' basic className="label-green resume-label apart" href='https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing'>
 							Resume
-						</Button>
+						</Label>
 					</Menu.Menu>
 				</Menu>
 			</Segment>
