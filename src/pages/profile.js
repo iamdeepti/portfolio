@@ -48,7 +48,7 @@ export class profile extends Component {
 						</Header>
 						<div className="box">
 							<Header as="p" className="Blue apart para-intro">
-								I'm a student at DTU, India and a full stack Web-Developer and 
+								I'm a student at Delhi Techonological University (India), a full stack Web-Developer and 
 								Machine Learning Enthusiast. 
 								<br/>
 								<div className='label-padding'>
