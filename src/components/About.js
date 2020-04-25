@@ -18,9 +18,9 @@ export class About extends Component {
                             <Header as='p'className='Blue apart'>
                           <div className ='after-intro'>
                         I enjoy building things that live on the internet. I also love turning complex problems into beautiful codes,
-                        and I'm always up for a challenge. I like exploiting new technologies.
+                        and I'm always up for a challenge. I like exploring new technologies.
                         <br/><br/>
-                        Some of the technologies I have worked with recently includes:
+                        Some of the technologies I have worked with recently include:
                         <ul className='Green'>
                             <li>React JS</li>
                             <li>PHP</li>
@@ -28,8 +28,9 @@ export class About extends Component {
                             <li>HTML and CSS</li>
                         </ul>
                         <br/>
-                        Beside this I love exploring Machine Learning Algorithms too, being a student of Applied Mathematics surely helps here. 
-                        I read novels in my free time, I loved 'Lean In' by Sheryl Sandberg. And when I'm bored I do a little bit of sketching too.
+                        I read novels in my free time, 'Lean In' by Sheryl Sandberg, 
+                        'The kite runner' by Khaled Hosseini are among my favourites.
+                         And when I'm bored I do a little bit of sketching too.
                         </div>
                         </Header>
                         </Item.Description>
