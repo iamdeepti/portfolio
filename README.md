@@ -1,4 +1,6 @@
 ## [PORTFOLIO](https://iamdeepti.netlify.app)
+[![HitCount](http://hits.dwyl.com/iamdeepti/portfolio.svg)](http://hits.dwyl.com/iamdeepti/portfolio)
+
  My personal website built with [ReactJs](https://reactjs.org/) and hosted with [netlify](https://www.netlify.com/). 
 I have kept the interface as simple as possible. Only four colors have been used in the entire website. 
 
