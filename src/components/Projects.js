@@ -6,7 +6,7 @@ export class Projects extends Component {
 		return (
 			<Container className="Background">
 				<Card.Group itemsPerRow={2} stackable>
-					<Card className="Background">
+					<Card className="project-background card" raised>
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
 							<span className="float-right">
@@ -17,9 +17,14 @@ export class Projects extends Component {
 							</span>
 						</Card.Content>
 						<Card.Content>
-							<Card.Header className="White" as='a' href='https://shecure.herokuapp.com/'>ShECURE</Card.Header>
+							<Card.Header
+								className="White"
+								as="a"
+								href="https://shecure.herokuapp.com/">
+								ShECURE
+							</Card.Header>
 
-							<Card.Description className="Blue">
+							<Card.Description className="Blue2">
 								ShECURE is a web app that leverages Machine Learning algorithms
 								to predict the fast and safest route between a source and
 								destination as entered by the user. It also collects feedback
@@ -39,12 +44,12 @@ export class Projects extends Component {
 							</Label>
 						</Card.Content>
 					</Card>
-					<Card className="Background">
+					<Card className="Background" raised>
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
 							<Button className="Background" floated="right" icon>
-								<a href='https://www.github.com/iamdeepti/online-store'>
-								<Icon name="github" color="grey" size="large"></Icon>
+								<a href="https://www.github.com/iamdeepti/online-store">
+									<Icon name="github" color="grey" size="large"></Icon>
 								</a>
 							</Button>
 						</Card.Content>
@@ -64,7 +69,7 @@ export class Projects extends Component {
 							<Label basic className="label-blue">
 								Bootstrap
 							</Label>
-                            <Label basic className="label-blue">
+							<Label basic className="label-blue">
 								PHP
 							</Label>
 						</Card.Content>

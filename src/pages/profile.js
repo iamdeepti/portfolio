@@ -41,10 +41,10 @@ export class profile extends Component {
 							Hi, My name is
 						</Header>
 						<Header as="h1" className="White heading">
-							Deepti Singh,{" "}
+							Deepti Singh.
 						</Header>
-						<Header as="h3" className="Blue sub-heading">
-							An avid coder who loves building things.
+						<Header as="h3" className=" sub-heading">
+							I'm an avid coder who loves building things.
 						</Header>
 						<div className="box">
 							<Header as="p" className="Blue apart para-intro">
@@ -60,20 +60,20 @@ export class profile extends Component {
 						</div>
 						</div>
 						<Divider horizontal className="section about-section" id="about">
-							<Header as="h4" className="White sub-heading section">
-								<span className="Green">01.</span> About Me
+							<Header as="h4" className="White section-heading section">
+								<span className="Green numbers">01.</span> About Me
 							</Header>
 						</Divider>
 						<About />
 						<Divider horizontal className="section" id="projects">
-							<Header as="h4" className="White sub-heading section">
-								<span className="Green">03.</span> Projects
+							<Header as="h4" className="White section-heading section">
+								<span className="Green numbers">03.</span> Projects
 							</Header>
 						</Divider>
 						<Projects />
 						<Divider horizontal className="section contact-section" id="contact">
-							<Header as="h4" className="White sub-heading section">
-								<span className="Green">04.</span> Get in touch
+							<Header as="h4" className="White section-heading section">
+								<span className="Green numbers">04.</span> Get in touch
 							</Header>
 						</Divider>
 						<Contact />
