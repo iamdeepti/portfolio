@@ -6,20 +6,21 @@ export class Contact extends Component {
 		return (
 			<div>
 				<Segment className="Background container">
-					<Header as="p" className="Blue apart contact-text">
-						Here are the links to my social profiles <br />
+					<Header as="p" className="slate apart contact-text">
+					 Feel free to say hello at <span className="Green">iamdeept956@gmail.com</span>.{" "}
+						<br />
+						Or just connect with me on <br />
 						<a href="https://www.github.com/iamdeepti">
-							<Icon name="github" color="grey" />
+							<Icon name="github" color="teal" size='large' />
 						</a>
 						<a href="https://www.linkedin.com/in/deepti-singh-276b9b152/">
-							<Icon name="linkedin" color="grey" />
+							<Icon name="linkedin" color="teal" size='large' />
 						</a>
 						<a href="https://www.instagram.com/ldeepsl/">
-							<Icon name="instagram" color="grey" />
+							<Icon name="instagram" color="teal" size='large' />
 						</a>
                         <br/>
-                        Or say hello at <span className="Green">iamdeept956@gmail.com</span>.{" "}
-						<br />
+                        
 						
 					</Header>
 				</Segment>

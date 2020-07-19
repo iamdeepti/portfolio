@@ -38,13 +38,14 @@ export class profile extends Component {
 					<Segment className="Background container ">
 						<div className='first-block'>
 						<Header as="p" className="Green starting">
-							Hi, My name is
+							<p className=''>Hi, My name is</p>
 						</Header>
 						<Header as="h1" className="White heading">
 							Deepti Singh.
 						</Header>
-						<Header as="h3" className=" sub-heading">
-							I'm an avid coder who loves building things.
+						<Header as="h3" className=" sub-heading ">
+							< p>I'm an avid coder
+							who loves building things for the web.</p>
 						</Header>
 						<div className="box">
 							<Header as="p" className="Blue apart para-intro">

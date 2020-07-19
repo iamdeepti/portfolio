@@ -11,7 +11,7 @@ export class Navbar extends Component {
 		return (
 			<Responsive minWidth={601}>
 				<Segment className="Background">
-					<Menu pointing secondary fixed="top" >
+					<Menu pointing secondary fixed="top" floated='right' >
 						<Menu.Item
 							as="a"
 							name="Home"
@@ -45,7 +45,7 @@ export class Navbar extends Component {
 							as="a"
 							name="Contacts"
 							onClick={this.handleItemClick}
-							active={activeItem === "Projects"}
+							active={activeItem === "Contacts"}
 							className="White  nav-text">
 							<Link to="/#contact" className="White nav-text">
 								<span className="Green">04.</span> Contact

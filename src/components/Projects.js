@@ -4,9 +4,9 @@ import { Container, Button, Card, Icon, Label } from "semantic-ui-react";
 export class Projects extends Component {
 	render() {
 		return (
-			<Container className="Background">
+			<Container>
 				<Card.Group itemsPerRow={2} stackable>
-					<Card className="project-background card" raised>
+					<Card className=" card" raised>
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
 							<span className="float-right">
@@ -15,6 +15,11 @@ export class Projects extends Component {
 									<Label.Detail>4</Label.Detail>
 								</Label>
 							</span>
+							<Button  floated="right" icon>
+								<a href="https://www.github.com/iamdeepti/shecure">
+									<Icon name="github" color="teal" size="big"></Icon>
+								</a>
+							</Button>
 						</Card.Content>
 						<Card.Content>
 							<Card.Header
@@ -24,7 +29,7 @@ export class Projects extends Component {
 								ShECURE
 							</Card.Header>
 
-							<Card.Description className="Blue2">
+							<Card.Description className="slate">
 								ShECURE is a web app that leverages Machine Learning algorithms
 								to predict the fast and safest route between a source and
 								destination as entered by the user. It also collects feedback
@@ -44,18 +49,18 @@ export class Projects extends Component {
 							</Label>
 						</Card.Content>
 					</Card>
-					<Card className="Background" raised>
+					<Card  raised>
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
-							<Button className="Background" floated="right" icon>
+							<Button  floated="right" icon>
 								<a href="https://www.github.com/iamdeepti/online-store">
-									<Icon name="github" color="grey" size="large"></Icon>
+									<Icon name="github" color="teal" size="big"></Icon>
 								</a>
 							</Button>
 						</Card.Content>
 						<Card.Content>
 							<Card.Header className="White">Online Store</Card.Header>
-							<Card.Description className="Blue">
+							<Card.Description className="slate">
 								A simple E-commerce website with payTM integration.
 							</Card.Description>
 						</Card.Content>
@@ -71,6 +76,41 @@ export class Projects extends Component {
 							</Label>
 							<Label basic className="label-blue">
 								PHP
+							</Label>
+						</Card.Content>
+					</Card>
+					<Card className=" card" raised>
+						<Card.Content extra>
+							<Icon name="folder open outline" size="big" color="teal"></Icon>
+							<Button  floated="right" icon>
+								<a href="https://www.github.com/iamdeepti/portfolio">
+									<Icon name="github" color="teal" size="big"></Icon>
+								</a>
+							</Button>
+							
+						</Card.Content>
+						<Card.Content>
+							<Card.Header
+								className="White"
+								as="a"
+								href="#">
+								PORTFOLIO
+							</Card.Header>
+
+							<Card.Description className="slate">
+								A simple portfolio website built using React ReactJS <br/>
+								(Yeah! you're viewing it right now)
+							</Card.Description>
+						</Card.Content>
+						<Card.Content extra>
+							<Label basic className="label-blue">
+								ReactJS
+							</Label>
+							<Label basic className="label-blue">
+								Semantic UI
+							</Label>
+							<Label basic className="label-blue">
+								CSS
 							</Label>
 						</Card.Content>
 					</Card>

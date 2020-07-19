@@ -1,243 +1,349 @@
-
-body{
-    background: #010101 !important;
+body {
+	background: #222831 !important;
 }
-a{
-    text-decoration: none !important;
+a {
+	text-decoration: none !important;
 }
-.Blue{
-    color: #69779b !important;
+.Blue {
+	color: #8892b0 !important;
 }
-.Blue2{
-    color: #7d8cb3 !important;
+.Blue2 {
+	color: #8892b0 !important;
 }
-.Green{
-    color: #acdbdf !important;
+.Green {
+	color: #acdbdf !important;
 }
-.White{
-    color: #f0ece2 !important;
+.White {
+	color: #f0ece2 !important;
 }
-.Background{
-    background-color: #000000 !important;
+.Background {
+	background-color: #222831 !important;
 }
-.label-green{
-    background-color: #010101 !important;
-    border-color: #acdbdf !important;
-    color: #acdbdf !important;
+.dark2 {
+	background-color: #0f4c75 !important;
 }
-.label-blue{
-    background-color: #0d0c0c !important;
-    border-color: #69779b !important;
-    color:#69779b !important;
+.label {
+	background-color: transparent !important;
+	padding: 15px !important;
 }
-.heading{
-    font-size: 80px !important;
-    font-weight: 800 !important;
-    margin-top: 0% !important;
-    margin-bottom: 10px !important;
-    /* letter-spacing: 6px; */
-    /* padding-top: 2% !important; */
-    /* padding-bottom: 2% !important; */
+.label-green {
+	border-color: #acdbdf !important;
+	color: #acdbdf !important;
 }
-.sub-heading{
-    font-size: 60px !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.20px;
-    margin-top: 0px !important;
-    /* padding-bottom: 2% !important; */
-    margin-bottom: 0px !important;
-    line-height: 1em !important;
-    color: #7d8cb3 !important;
+.label-blue {
+	border-color: #8892b0 !important;
+	color: #8892b0 !important;
+	padding: 5px !important;
+	margin: 5px !important;
+	/* margin-bottom: 5px !important; */
+	border-radius: 1px !important;
 }
-@media screen and (max-width:800px){
-    .heading{
-        font-size: 55px !important;
-    font-weight: 800 !important;
-    /* letter-spacing: 3px; */
-    /* padding-top: 2% !important; */
-    /* padding-bottom: 2% !important; */
-    }
-    .sub-heading{
-        font-size: 35px !important;
-        font-weight: 600 !important;
-        /* letter-spacing: 1px; */
-        /* padding-top: 2% !important; */
-        /* padding-bottom: 2% !important; */
-    }
+.heading {
+	font-size: 80px !important;
+	font-weight: 800 !important;
+	margin-top: 0% !important;
+	margin-bottom: 10px !important;
+	/* letter-spacing: 6px; */
+	/* padding-top: 2% !important; */
+	/* padding-bottom: 2% !important; */
 }
-.img{
-    height: 189px;
-    width: 189px;
+.sub-heading {
+	font-size: 60px !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.2px;
+	margin-top: 0px !important;
+	/* padding-bottom: 2% !important; */
+	margin-bottom: 0px !important;
+	line-height: 1em !important;
+	color: #7d8cb3 !important;
 }
-.float-right{
-    float: right;
+@media screen and (max-width: 800px) {
+	.heading {
+		font-size: 55px !important;
+		font-weight: 800 !important;
+		/* letter-spacing: 3px; */
+		/* padding-top: 2% !important; */
+		/* padding-bottom: 2% !important; */
+	}
+	.sub-heading {
+		font-size: 35px !important;
+		font-weight: 600 !important;
+		/* letter-spacing: 1px; */
+		/* padding-top: 2% !important; */
+		/* padding-bottom: 2% !important; */
+	}
 }
-.White-sub{
-    color: #758184 !important;
+.img {
+	height: 189px;
+	width: 189px;
 }
-.apart{
-    letter-spacing: 1px;
+.float-right {
+	float: right;
 }
-.container{
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+.White-sub {
+	color: #758184 !important;
 }
-.box{
-    padding-top: 3% !important;
-    padding-left: 1% !important;
-    padding-right: 45% !important;
-    
+.apart {
+	letter-spacing: 1px;
 }
-@media screen and (max-width:800px){
-.box{
-    /* padding-top: 10% !important; */
-    padding-left: 1% !important;
-    padding-right: 10% !important;
-    
-}}
-.section{
-    margin-top: 12% !important;
-    margin-bottom: 8% !important;
+.container {
+	padding-left: 5% !important;
+	padding-right: 5% !important;
 }
-.footer{
-    padding-top:10% !important;
-    
+.box {
+	padding-top: 3% !important;
+	padding-left: 1% !important;
+	padding-right: 45% !important;
 }
-.footer-text{
-    text-align: center;
-    text-transform: none !important;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+@media screen and (max-width: 800px) {
+	.box {
+		/* padding-top: 10% !important; */
+		padding-left: 1% !important;
+		padding-right: 10% !important;
+	}
 }
-@media screen and (max-width:600px){
-    .footer-text{
-        font-size: 12px !important;
-    }
+.section {
+	margin-top: 12% !important;
+	margin-bottom: 8% !important;
 }
-.smallscreen{
-    margin-left: 0!important;
-    margin-right: 0!important;
+.footer {
+	padding-top: 10% !important;
 }
-.after-menu{
-    padding-top: 42px !important;
+.footer-text {
+	text-align: center;
+	text-transform: none !important;
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+		"Lucida Console", Monaco, monospace;
 }
-.sidebar{
-    padding-top: 48px;
-    display: flex !important;
-    position: fixed !important;
-    height: 100%;
-    visibility: visible !important;
-    z-index: 100;
-    background: #010101;
-    width: 80%;
-    text-align: center;
-    font-size: 18px;
-    justify-content: center;
+@media screen and (max-width: 600px) {
+	.footer-text {
+		font-size: 12px !important;
+	}
 }
-.container-bt{
-    height:100%;
+.smallscreen {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
 }
-.no-dots{
-    list-style-type: none;
+.after-menu {
+	padding-top: 42px !important;
 }
-.sidebar-items{
-    padding-top: 4px;
-    padding-bottom:4px;
-    letter-spacing: 2px;
+.sidebar {
+	padding-top: 48px;
+	display: flex !important;
+	position: fixed !important;
+	height: 100%;
+	visibility: visible !important;
+	z-index: 100;
+	background: #010101;
+	width: 80%;
+	text-align: center;
+	font-size: 18px;
+	justify-content: center;
 }
-.starting{
-    /* padding-top: 3% !important; */
-    margin-top: 60px !important;
-    letter-spacing: 1px !important;
-    margin-bottom:10px !important;
-   
+.container-bt {
+	height: 100%;
 }
-@media screen and (max-width:600px){
-    .starting{
-        margin-top: 48px !important;
-    }
+.no-dots {
+	list-style-type: none;
 }
-.para-intro{
-    font-size: 22px !important;
-    font-weight: 400 !important;
-    padding-top: 0% !important;
-    padding-left: 0% !important;
-    margin-top: 8px !important;
+.sidebar-items {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	letter-spacing: 2px;
 }
-@media screen and (max-width:800px){
-    .para-intro{
-    font-size: 18px !important;}
+.starting {
+	/* padding-top: 3% !important; */
+	margin-top: 60px !important;
+	letter-spacing: 1px !important;
+	margin-bottom: 10px !important;
 }
-.intro{
-    font-size: 18px !important;
-    font-weight: 400 !important;
+@media screen and (max-width: 600px) {
+	.starting {
+		margin-top: 48px !important;
+	}
 }
-.after-intro{
-    font-weight: 450 !important;
+.para-intro {
+	font-size: 22px !important;
+	font-weight: 400 !important;
+	padding-top: 0% !important;
+	padding-left: 0% !important;
+	margin-top: 8px !important;
 }
-.label-padding{
-    padding-top:5% !important;
-
+@media screen and (max-width: 800px) {
+	.para-intro {
+		font-size: 18px !important;
+	}
 }
-.label-text{
-    font-size: 18px !important;
+.intro {
+	font-size: 18px !important;
+	font-weight: 400 !important;
 }
-.about-section{
-    margin-bottom: 1% !important;
+.after-intro {
+	font-weight: 450 !important;
 }
-.resume-label{
-    margin-right: 10px !important;
-    margin-top: 5px !important;
-    margin-bottom:5px !important;
-    padding-bottom: 0px !important;
-    font-size: 15px !important;
+.label-padding {
+	padding-top: 5% !important;
 }
-.contact-section{
-    margin-bottom: 1% !important;
+.label-text {
+	font-size: 18px !important;
 }
-.contact-text{
-    text-align: center !important;
-    justify-content: center !important;
+.about-section {
+	margin-bottom: 1% !important;
 }
-.first-block{
-    margin-bottom: 25% !important;
+.resume-label {
+	margin-right: 10px !important;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	/* padding-bottom: 0px !important; */
+	font-size: 15px !important;
 }
-.nav-text{
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace ;
-    /* padding-top: 15px !important;
+.contact-section {
+	margin-bottom: 1% !important;
+}
+.contact-text {
+	text-align: center !important;
+	justify-content: center !important;
+}
+.first-block {
+	margin-bottom: 25% !important;
+}
+.nav-text {
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+		"Lucida Console", Monaco, monospace;
+	/* padding-top: 15px !important;
     padding-bottom: 20px !important; */
 }
-.section-heading{
-    font-size: 60px !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.20px;
-    margin-top: 0px !important;
-    /* padding-bottom: 2% !important; */
-    margin-bottom: 0px !important;
-    line-height: 1em !important;
+.section-heading {
+	font-size: 60px !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.2px;
+	margin-top: 0px !important;
+	/* padding-bottom: 2% !important; */
+	margin-bottom: 0px !important;
+	line-height: 1em !important;
 }
-@media screen and (max-width:800px){
-    
-    .section-heading{
-        font-size: 25px !important;
-        font-weight: 700 !important;
-        letter-spacing: 1px;
-        padding-top: 2% !important;
-        padding-bottom: 2% !important;
+@media screen and (max-width: 800px) {
+	.section-heading {
+		font-size: 25px !important;
+		font-weight: 700 !important;
+		letter-spacing: 1px;
+		padding-top: 2% !important;
+		padding-bottom: 2% !important;
+	}
+}
+.numbers {
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+		"Lucida Console", Monaco, monospace;
+	font-size: 40px !important;
+	font-weight: 500 !important;
+}
+@media screen and (max-width: 800px) {
+	.numbers {
+		font-size: 20px !important;
+	}
+}
+/* .project-background{
+    background-color: #393e46 !important;
+} */
+.slate {
+	color: #8892b0 !important;
+}
+.card {
+	background-color: #1f2836 !important;
+	border: none !important;
+	color: #8892b0 !important;
+	/* box-shadow: none !important; */
+	border-bottom: 2px solid #8892b0 !important;
+	/* border-right: 1px solid #8892b0 !important; */
+    border-radius: 0 !important;
+    box-shadow:0 0 15px #273347 !important;
+}
+/* .line-1 {
+    position: relative;
+    border-right: 2px solid white !important;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-left: 65px;
+    margin-top: 20px;
+  }
+  
+.anim-typewriter {
+    animation: typewriter 4s steps(48) 1s 1 normal both,
+      blinkTextCursor 500ms steps(48) infinite normal;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
     }
-}
-.numbers{
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace ;
-    font-size: 40px !important;
-    font-weight: 500 !important;
-}
-@media screen and (max-width:800px){
-    .numbers{
-    font-size: 20px !important;
+    to {
+      width: 11.2em;
     }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(0, 0, 0, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  } */
+.anim-typewriter {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 0.15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 1px; /* Adjust as needed */
+	animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
-.project-background{
-    background-color: #212121 !important;
+.anim-typewriter2 {
+	animation-delay: 10s;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 0.15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 1px; /* Adjust as needed */
+	animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
-.card{
-    background-color: #212121 !important;
+/* The typing effect */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: orange;
+	}
+}
+.ui.right.floated.menu {
+	float: right !important;
+}
+.sidebar {
+	background-color: #222831 !important;
+}
+.ui.image img {
+    border: 2px solid #acdbdf !important;
+    /* border-right: 2px solid #acdbdf !important; */
+}
+/* .ui.card>.extra{
+    background: #21d4fd linear-gradient(19deg, #21d4fd 0%, #b721ff 100%) !important;
+      
+} */
+.ui.button{
+    background-color: transparent !important;
+}
+.ui.icon.button, .ui.icon.buttons{
+    padding: 0 !important;
 }
