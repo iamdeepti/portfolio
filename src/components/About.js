@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import profile_pic from '../components/profile_pic.jpg';
-import { Item, Container,Segment, Header, } from 'semantic-ui-react';
+import { Item,Segment, Header, } from 'semantic-ui-react';
 import '../App.css';
 export class About extends Component {
     render() {

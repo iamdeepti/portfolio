@@ -27,7 +27,7 @@ export class profile extends Component {
 		this.setState({ activeItem: name, visible: false, icon: "bars" });
 
 	render() {
-		const activeItem = this.state.activeItem;
+		// const activeItem = this.state.activeItem;
 		return (
 			<div className="Background">
 				
