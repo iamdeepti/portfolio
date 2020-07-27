@@ -8,7 +8,7 @@ export class Footer extends Component {
             <div className='footer '>
                 <Divider horizontal inverted className='Blue'>
                     <span className='footer-text'>
-                Built and Designed by <span className='Green'>Deepti Singh</span></span>
+                Built and Designed by <a href='https://www.github.com/iamdeepti'>Deepti Singh</a></span>
                 </Divider>
             </div>
            

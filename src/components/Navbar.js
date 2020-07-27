@@ -28,7 +28,7 @@ export class Navbar extends Component {
 							active={activeItem === "Blog"}
 							className="White  nav-text">
 							<Link to="/#blog" className="White nav-text">
-								<span className="Green">02.</span> Blog
+								<span className="Green">02.</span> Work Experience
 							</Link>
 						</Menu.Item>
 						<Menu.Item
@@ -56,7 +56,7 @@ export class Navbar extends Component {
 							<Label
 								as="a"
 								basic
-								className="label-green resume-label apart"
+								className="resume-label apart"
 								href="https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing">
 								Resume
 							</Label>

@@ -186,6 +186,15 @@ a {
 }
 .label-text {
 	font-size: 18px !important;
+	border-color: #cef2f5 !important;
+}
+a>.ui.basic.label{
+	color: #cef2f5 !important;
+	border: 1px solid #cef2f5 !important;
+}
+a>.ui.basic.label:hover,a>.ui.basic.label:focus{
+	color: #94dde3 !important;
+	border: 1px solid #94dde3 !important;
 }
 .about-section {
 	margin-bottom: 1% !important;
@@ -347,3 +356,20 @@ a {
 .ui.icon.button, .ui.icon.buttons{
     padding: 0 !important;
 }
+a{
+	color: #cef2f5 !important;
+	text-decoration: none;
+}
+a:hover,a:focus{
+	color: #94dde3 !important;
+	text-decoration: none;
+}
+a.ui.basic.label{
+	color: #94dde3 !important;
+	border: 1px solid #94dde3 !important;
+}
+a.ui.basic.label:hover,a.ui.basic.label:focus{
+	color: #cef2f5 !important;
+	border: 1px solid #cef2f5 !important;
+}
+

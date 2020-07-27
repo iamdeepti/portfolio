@@ -7,7 +7,7 @@ export class Contact extends Component {
 			<div>
 				<Segment className="Background container">
 					<Header as="p" className="slate apart contact-text">
-					 Feel free to say hello at <span className="Green">iamdeept956@gmail.com</span>.{" "}
+					 Feel free to say hello at <a href='mailto:iamdeepti956@gmail.com'>iamdeept956@gmail.com</a>.{" "}
 						<br />
 						Or just connect with me on <br />
 						<a href="https://www.github.com/iamdeepti">

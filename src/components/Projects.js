@@ -98,7 +98,7 @@ export class Projects extends Component {
 							</Card.Header>
 
 							<Card.Description className="slate">
-								A simple portfolio website built using React ReactJS <br/>
+								A simple portfolio website built using ReactJS <br/>
 								(Yeah! you're viewing it right now)
 							</Card.Description>
 						</Card.Content>

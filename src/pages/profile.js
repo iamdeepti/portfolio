@@ -54,7 +54,7 @@ export class profile extends Component {
 								<br/>
 								<div className='label-padding'>
 									<Link to='/profile#contact'>
-								<Label basic className='label-green label-text'>Contact Me</Label>
+								<Label basic className='label-text'>Contact Me</Label>
 								</Link>
 								</div>
 							</Header>
