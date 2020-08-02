@@ -1,40 +1,44 @@
 import React, { Component } from "react";
 import "../App.css";
-import { Container, Button, Card, Icon, Label } from "semantic-ui-react";
+import {  Button, Card, Icon, Label } from "semantic-ui-react";
 export class Projects extends Component {
 	render() {
 		return (
-			<Container>
-				<Card.Group itemsPerRow={2} stackable>
+			<div className='section' id='projects'>
+				<h1 className='sub-heading' ><span className='Green numbers'>03.</span>Some Things I've Built</h1>
+				<Card.Group itemsPerRow={3} stackable>
 					<Card className=" card" raised>
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
+							<Button  floated="right" icon>
+								<a href="https://shecure.herokuapp.com">
+									<Icon name="external alternate" size='large'></Icon>
+								</a>
+							</Button>
+							<Button  floated="right" icon>
+								<a href="https://www.github.com/iamdeepti/shecure">
+									<Icon name="github"  size="big"></Icon>
+								</a>
+							</Button>
+							
 							<span className="float-right">
 								<Label basic className="label-blue" size="small">
 									Contributors
 									<Label.Detail>4</Label.Detail>
 								</Label>
 							</span>
-							<Button  floated="right" icon>
-								<a href="https://www.github.com/iamdeepti/shecure">
-									<Icon name="github" color="teal" size="big"></Icon>
-								</a>
-							</Button>
+							
+							
 						</Card.Content>
 						<Card.Content>
-							<Card.Header
-								className="White"
-								as="a"
-								href="https://shecure.herokuapp.com/">
+							<Card.Header>
 								ShECURE
 							</Card.Header>
 
-							<Card.Description className="slate">
+							<Card.Description >
 								ShECURE is a web app that leverages Machine Learning algorithms
-								to predict the fast and safest route between a source and
-								destination as entered by the user. It also collects feedback
-								from users and does sentiment analysis to improve the safety
-								score.
+								to predict the fast and safe routes for women to travel. 
+								Sentiment Analysis of feedback is done to improve the dataset.
 							</Card.Description>
 						</Card.Content>
 						<Card.Content extra>
@@ -54,13 +58,13 @@ export class Projects extends Component {
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
 							<Button  floated="right" icon>
 								<a href="https://www.github.com/iamdeepti/online-store">
-									<Icon name="github" color="teal" size="big"></Icon>
+									<Icon name="github"  size="big"></Icon>
 								</a>
 							</Button>
 						</Card.Content>
 						<Card.Content>
-							<Card.Header className="White">Online Store</Card.Header>
-							<Card.Description className="slate">
+							<Card.Header className='White'>Online Store</Card.Header>
+							<Card.Description >
 								A simple E-commerce website with payTM integration.
 							</Card.Description>
 						</Card.Content>
@@ -83,21 +87,23 @@ export class Projects extends Component {
 						<Card.Content extra>
 							<Icon name="folder open outline" size="big" color="teal"></Icon>
 							<Button  floated="right" icon>
+								<a href="https://iamdeepti.netlify.app">
+									<Icon name="external alternate" size="large"></Icon>
+								</a>
+							</Button>
+							<Button  floated="right" icon>
 								<a href="https://www.github.com/iamdeepti/portfolio">
-									<Icon name="github" color="teal" size="big"></Icon>
+									<Icon name="github" size="big"></Icon>
 								</a>
 							</Button>
 							
 						</Card.Content>
 						<Card.Content>
-							<Card.Header
-								className="White"
-								as="a"
-								href="#">
+							<Card.Header>
 								PORTFOLIO
 							</Card.Header>
 
-							<Card.Description className="slate">
+							<Card.Description >
 								A simple portfolio website built using ReactJS <br/>
 								(Yeah! you're viewing it right now)
 							</Card.Description>
@@ -115,7 +121,7 @@ export class Projects extends Component {
 						</Card.Content>
 					</Card>
 				</Card.Group>
-			</Container>
+			</div>
 		);
 	}
 }

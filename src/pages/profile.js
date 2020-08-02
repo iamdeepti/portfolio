@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import {
-	Header,
-	Segment,
-	Divider,
-	Label,
-} from "semantic-ui-react";
+import {  Label } from "semantic-ui-react";
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
 import About from "../components/About";
@@ -12,7 +7,9 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import "../App.css";
 import { HashLink as Link } from "react-router-hash-link";
-import {Sidebar} from "../components/Sidebar"
+import { Sidebar } from "../components/Sidebar";
+import Work from "../components/Work";
+import "./background.jpg";
 export class profile extends Component {
 	state = { visible: false, icon: "bars", activeItem: "" };
 	togglefunc = (e) => {
@@ -27,62 +24,39 @@ export class profile extends Component {
 		this.setState({ activeItem: name, visible: false, icon: "bars" });
 
 	render() {
-		// const activeItem = this.state.activeItem;
 		return (
-			<div className="Background">
+			<div>
 				
-					<Navbar/>
-					<Sidebar/>
-				
-				
-					<Segment className="Background container ">
-						<div className='first-block'>
-						<Header as="p" className="Green starting">
-							<p className=''>Hi, My name is</p>
-						</Header>
-						<Header as="h1" className="White heading">
-							Deepti Singh.
-						</Header>
-						<Header as="h3" className=" sub-heading ">
-							< p>I'm an avid coder
-							who loves building things for the web.</p>
-						</Header>
-						<div className="box">
-							<Header as="p" className="Blue apart para-intro">
-								I'm a student at Delhi Techonological University (India), a full stack Web-Developer and 
-								Machine Learning Enthusiast. 
-								<br/>
-								<div className='label-padding'>
-									<Link to='/profile#contact'>
-								<Label basic className='label-text'>Contact Me</Label>
-								</Link>
-								</div>
-							</Header>
+
+					<div className=" lead">
+					<Navbar />
+				<Sidebar />
+
+						<div className="first-block">
+							<p className='Green'> Hi there, my name is</p>
+							<h1 className='White heading'>Deepti Singh</h1>
+								<p className='Blue'>
+								I'm a final year student at Delhi Techonological University (India), an aspiring Software Developer and Machine Learning Enthusiast.
+								
+								</p>
+								<Link to="/profile#contact">
+											<Label basic className="label-text">
+												Get in Touch
+											</Label>
+										</Link>
+							{/* </div> */}
 						</div>
-						</div>
-						<Divider horizontal className="section about-section" id="about">
-							<Header as="h4" className="White section-heading section">
-								<span className="Green numbers">01.</span> About Me
-							</Header>
-						</Divider>
-						<About />
-						<Divider horizontal className="section" id="projects">
-							<Header as="h4" className="White section-heading section">
-								<span className="Green numbers">03.</span> Projects
-							</Header>
-						</Divider>
-						<Projects />
-						<Divider horizontal className="section contact-section" id="contact">
-							<Header as="h4" className="White section-heading section">
-								<span className="Green numbers">04.</span> Get in touch
-							</Header>
-						</Divider>
-						<Contact />
-						
-						<Footer />
-					</Segment>
+					</div>
 				
+				<div className='container'>
+				<About/>
+				<Work/>
+				<Projects/>
 				
+				<Contact/>
+				
+				</div>
+				<Footer/>
 			</div>
 		);
 	}

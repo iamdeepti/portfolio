@@ -19,10 +19,10 @@ export class Sidebar extends Component {
 	render() {
 		return (
 			<Responsive maxWidth={600}>
-				<Menu className="Background" fixed="top">
+				<Menu fixed="top">
 					<Menu.Item>
-						<Button onClick={this.togglefunc} className="Background">
-							<Icon name={this.state.icon} color="teal" size="large" />
+						<Button onClick={this.togglefunc} >
+							<Icon name={this.state.icon} size="large" />
 						</Button>
 					</Menu.Item>
 				</Menu>
@@ -32,25 +32,25 @@ export class Sidebar extends Component {
 						<div className="sidebar">
 							<ul className="White no-dots apart">
 								<li className="sidebar-items">
-									<Link to="/#about" className="White">
+									<Link to="/#about" className="White" onClick={this.togglefunc}>
 										<span className="Green">01.</span> <br />
 										About
 									</Link>
 								</li>
 								<li className="sidebar-items">
-									<Link to="/#blog" className="White">
+									<Link to="/#work" className="White" onClick={this.togglefunc}>
 										<span className="Green">02.</span>
-										<br /> Blog
+										<br /> Work Experience
 									</Link>
 								</li>
 								<li className="sidebar-items">
-									<Link to="/#projects" className="White">
+									<Link to="/#projects" className="White" onClick={this.togglefunc}>
 										<span className="Green">03.</span>
 										<br /> Projects
 									</Link>
 								</li>
 								<li className="sidebar-items">
-									<Link to="/#contact" className="White">
+									<Link to="/#contact" className="White" onClick={this.togglefunc}>
 										<span className="Green">04.</span>
 										<br /> Contact
 									</Link>

@@ -27,7 +27,7 @@ export class Navbar extends Component {
 							onClick={this.handleItemClick}
 							active={activeItem === "Blog"}
 							className="White  nav-text">
-							<Link to="/#blog" className="White nav-text">
+							<Link to="/#work" className="White nav-text">
 								<span className="Green">02.</span> Work Experience
 							</Link>
 						</Menu.Item>
