@@ -57,7 +57,7 @@ export class Navbar extends Component {
 								as="a"
 								basic
 								className="resume-label apart"
-								href="https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing">
+								href="https://docs.google.com/document/d/1O1Kg-trpacfW5HPCDjgoHOUpTzD89XnKTbXCoD5y7YA/edit?usp=sharing">
 								Resume
 							</Label>
 						</Menu.Menu>

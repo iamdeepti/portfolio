@@ -56,7 +56,7 @@ export class Sidebar extends Component {
 									</Link>
 								</li>
 								<li className="sidebar-items">
-									<a href="https://drive.google.com/file/d/1TC19IuKqCvmV9aTe7yFkCe9ymNRrJGgw/view?usp=sharing">
+									<a href="https://docs.google.com/document/d/1O1Kg-trpacfW5HPCDjgoHOUpTzD89XnKTbXCoD5y7YA/edit?usp=sharing">
 										<Label basic className="label-green" as="a">
 											Resume
 										</Label>
