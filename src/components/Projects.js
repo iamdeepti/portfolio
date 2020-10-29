@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-import { Button, Card, Icon, Label } from "semantic-ui-react";
+import { Button, Card, Icon } from "semantic-ui-react";
 import axios from "axios";
 function ProjectCards(props) {
   const {
