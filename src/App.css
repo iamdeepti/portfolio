@@ -372,3 +372,15 @@ div.content{
 	border: none !important;
 	
 }
+.ui.tabular.menu .active.item{
+	background-color: #64ffda12 !important;
+	border-color: #acdbdf !important;
+}
+.ui.tabular.menu .item{
+	border: none !important;
+	
+}
+.ui.tabular.menu{
+	border: none !important;
+	
+}
