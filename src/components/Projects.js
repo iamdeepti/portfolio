@@ -30,10 +30,8 @@ function ProjectCards(props) {
           </Button>
           {/* <Icon name="github" link corner='top right' color='teal'></Icon> */}
         </Card.Header>
-        <Card.Description>
-          {description}
-        </Card.Description>
-        <div >
+        <Card.Description>{description}</Card.Description>
+        <div>
           <span
             className="Blue"
             style={{ marginRight: "16px", fontSize: "12px" }}

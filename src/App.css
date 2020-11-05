@@ -3,7 +3,7 @@ body {
 	font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif !important;
 	line-height: 1.3 !important;
 	-webkit-font-smoothing: antialiased;
-
+	color: #8892b0;
 }
 
 .lead{
@@ -352,4 +352,23 @@ div.content{
 	top: calc(100% - 25px);
 	position: absolute;
 	bottom: 0;
+}
+.ui.vertical.tabular.menu .active.item{
+	background-color: #64ffda12 !important;
+	border-color: #acdbdf !important;
+}
+.ui.tab{
+	background-color: #172a45 !important;
+	color: #a8b2d1;
+}
+.ui.attached.segment{
+	border: none !important;
+}
+.ui.vertical.tabular.menu .item{
+	border: none !important;
+	
+}
+.ui.vertical.tabular.menu{
+	border: none !important;
+	
 }
